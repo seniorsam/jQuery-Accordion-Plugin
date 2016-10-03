@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery Accordion Plugin</title>
+	<link rel="stylesheet" href="jQueryAccordionPlugin.css">
+</head>
+<body>
+
+	<h1>Jquery accordion plugin</h1>
+
+	<div id="acc1">
+		<div class="jqaccordion">
+			<div class="acc-title">Title</div>
+			<div class="acc-content">
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+			</div>		
+		</div>
+	</div>
+	<br>
+
+	<div id="acc2">
+		<div class="jqaccordion">
+			<div class="acc-title">Title</div>
+			<div class="acc-content">
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+			</div>		
+			<div class="acc-title">Title</div>
+			<div class="acc-content">content</div>		
+			<div class="acc-title">Title</div>
+			<div class="acc-content">content</div>
+		</div>	
+	</div>
+	<br>
+
+	<div id="acc3">
+		<div class="jqaccordion">
+			<div class="acc-title">Title</div>
+			<div class="acc-content">
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+			</div>		
+			<div class="acc-title">Title</div>
+			<div class="acc-content">content</div>		
+		</div>	
+	</div>	
+	<br>
+
+	<div id="acc4">
+		<div class="jqaccordion">
+			<div class="acc-title">Title</div>
+			<div class="acc-content">
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+			</div>		
+			<div class="acc-title">Title</div>
+			<div class="acc-content">content</div>		
+		</div>	
+	</div>	
+	<br>
+	<div id="acc5">
+		<div class="jqaccordion">
+			<div class="acc-title">Title</div>
+			<div class="acc-content">
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+			</div>		
+			<div class="acc-title">Title</div>
+			<div class="acc-content">content</div>		
+		</div>	
+	</div>
+
+	<p>Made in tatbeke lab by <a href="http://www.github.com/seniorsam">sameh abdel moneim</a></p>
+	
+	<script src="jquery.min.js"></script>
+	<script src="jQueryAccordionPlugin.js"></script>
+	<script>
+		$('#acc1').jqAccordion({
+			titleBackground:'#3783fc',
+			titleTextColor:'#fff',
+			contentBackground:'#d2e4ff',
+			contentTextColor:'#000',
+			speed:200,
+			shaded:true
+		});
+
+		$('#acc2').jqAccordion({
+			titleBackground:'#abc123',			
+			titleTextColor:'#fff',
+			contentBackground:'#fff',
+			contentTextColor:'#606b19',
+			speed:200,
+			shaded:true
+		});
+
+		$('#acc3').jqAccordion({
+			titleBackground:'#cc0033',			
+			titleTextColor:'#fff',
+			contentBackground:'#ffd5e0',
+			contentTextColor:'#000',
+			speed:200,
+			shaded:true
+		});
+
+		$('#acc4').jqAccordion({
+			titleBackground:'#e0e0e0',			
+			titleTextColor:'#000',
+			contentBackground:'#fff',
+			contentTextColor:'#505050',
+			speed:200,
+			shaded:true
+		});		
+
+		$('#acc5').jqAccordion();
+	</script>	
+</body>
+</html>
